@@ -1,0 +1,87 @@
+body {	
+	background-image: url("img/giff.gif");
+	width: 570px;
+	margin-right: -90px;
+	margin-left: -30px;
+	margin-top: -50px;
+	z-index: 5;
+
+}
+
+.play{
+	position: absolute;
+	font-family: arial;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 13px;
+	cursor: pointer;
+	top: 125px;
+	left: 240px;
+}
+.play-cor{
+	background-color: #008B8B;
+	box-shadow:0 5px 0 #004444;
+}
+.play-cor:hover{
+	background-color: #004444;
+	box-shadow:0 5px 0 #004444;
+}
+
+.creditos{
+	position: absolute;
+	font-family: arial;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px;
+	border: none;
+	cursor: pointer;
+	top: 196px;
+	left: 260px;
+
+}
+.creditos-cor{
+	background-color: #008B8B;
+	box-shadow:0 5px 0 #004444;
+}
+.creditos-cor:hover{
+	background-color: #004444;
+	box-shadow:0 5px 0 #004444;
+}
+
+#FONTE  {
+	position: absolute;
+	margin-top: -90px;
+	right: 3px;
+	z-index: 3;
+
+}
+#volei  {
+	position: absolute;	
+	width: 250px;
+	top: 103px;
+	left: 10px;
+	z-index: 4;
+
+}
+#Yoga  {
+	position: absolute;
+	width: 220px;
+	top: 130px;
+	left: 360px;
+	z-index: 2;
+}
+
+#chao {
+	position: absolute;
+	right: -1px;
+	top: 300px;
+	z-index: 1;
+}
+#montanha {
+	position: absolute;
+	top: 20px;
+	left: 1px;
+}
